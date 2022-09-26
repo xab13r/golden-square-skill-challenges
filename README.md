@@ -30,3 +30,16 @@ This approach is much more structured and, at times, it can even feel boring. Ho
 
 ## Design a Single-Method Program
 
+## Exercise
+
+### Exercise One
+
+- [Design](https://github.com/xab13r/golden-square-skill-challenges/blob/main/exercise1.md)
+- [Test](https://github.com/xab13r/golden-square-skill-challenges/blob/main/spec/reading_time_spec.rb)
+- [Code](https://github.com/xab13r/golden-square-skill-challenges/blob/main/lib/reading_time.rb)
+
+### Exercise Two
+
+- [Design](https://github.com/xab13r/golden-square-skill-challenges/blob/main/exercise2.md)
+- [Test](https://github.com/xab13r/golden-square-skill-challenges/blob/main/spec/is_text_correct_spec.rb)
+- [Code](https://github.com/xab13r/golden-square-skill-challenges/blob/main/lib/is_text_correct.rb)
