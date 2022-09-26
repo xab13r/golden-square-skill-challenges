@@ -12,16 +12,21 @@ Then you write another small example, and continue in a cycle until your program
 
 This approach is much more structured and, at times, it can even feel boring. However because it forces us to break down large problems into clearly specified and small examples that you focus on one by one, it helps our brains manage the complexity of a codebase by taking things 'one at a time'.
 
-Example
+## Test Drive a Single-Method Program
+
+## Exercise
 
 > A method called make_snippet that takes a string as an argument and returns the first five words and then a '...' if there are more than that.
 
 - [Test](./spec/make_snippet_spec.rb)
 - [Code](./lib/make_snippet.rb)
 
-Challenge
+## Challenge
 
 > A method called count_words that takes a string as an argument and returns the number of words in that string.
 
 - [Test](./spec/count_words_spec.rb)
 - [Code](./lib/count_words.rb)
+
+## Design a Single-Method Program
+
