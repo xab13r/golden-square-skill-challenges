@@ -1,20 +1,29 @@
-# Method Desigg
+# Method Design
 
 ## The Problem
 
-Given a text, the method will estimate the reading time, assuming a reading speed of 200 words per minute.
+Give a block of text. the method checks if the text starts with a capital letter and ends with punctuation mark from the group !?.;
 
 ## The Method Signature
 
 ```
 # Name of the method
-reading_time
+is_text_correct?(text)
 
-estimate_reading_time = reading_time(text)
+is_text_correct = is_text_correct?(text)
 
-text: a string
-estimate_reading_time: a number representing duration in minutes
+text: a string of characters
+is_text_correct: return true if correct, returns error message if text doesn't start with capital letter, returns error message if text doesn't end with punctuation mark
 
-# will use sample text as input
+```
 
+## Examples as Test
+
+```
+is_text_correct?("Hello, world!") => true
+is_text_correct?("") => false
+is_text_correct?("hello, world!") => false
+is_text_correct?("Hello, world,") => false
+it_text_correct?("hello, world") => false
+is_text_correct?(nil) => throws an error
 ```
