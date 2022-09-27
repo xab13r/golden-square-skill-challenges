@@ -62,3 +62,20 @@ This approach is much more structured and, at times, it can even feel boring. Ho
 - [Test](./spec/grammar_stats_spec.rb)
 - [Code](./lib/grammar_stats.rb)
 
+## Design a Single-Class Program
+
+### Exercise
+
+- [Design](./phase02-design-class-exercise.md)
+- [Test](./spec/todo_list_spec.rb)
+- [Code](./lib/todo_list.rb)
+
+### Challenge
+
+> As a user  
+> So that I can keep track of my music listening  
+> I want to add tracks I've listened to and see a list of them.
+
+- [Design](./phase02-design-class-challenge.md)
+- [Test](./spec/music_list_spec.rb)
+- [Code](./lib/music_list.rb)
