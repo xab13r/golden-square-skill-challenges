@@ -54,10 +54,3 @@ RSpec.describe "is_text_correct? method" do
 	
 
 end
-
-
-
-#is_text_correct?("Hello, world!") => true
-#is_text_correct?("") => false
-#is_text_correct?("Hello, world,") false
-#it_text_correct?("hello, world") false

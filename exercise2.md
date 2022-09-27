@@ -2,7 +2,7 @@
 
 ## The Problem
 
-Give a block of text. the method checks if the text starts with a capital letter and ends with punctuation mark from the group !?.;
+Given a block of text, the method checks if the text starts with a capital letter and ends with punctuation mark from the group !?.;
 
 ## The Method Signature
 
