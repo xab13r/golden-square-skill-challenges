@@ -14,14 +14,14 @@ This approach is much more structured and, at times, it can even feel boring. Ho
 
 ## Test Drive a Single-Method Program
 
-## Exercise
+### Exercise
 
 > A method called make_snippet that takes a string as an argument and returns the first five words and then a '...' if there are more than that.
 
 - [Test](./spec/make_snippet_spec.rb)
 - [Code](./lib/make_snippet.rb)
 
-## Challenge
+### Challenge
 
 > A method called count_words that takes a string as an argument and returns the number of words in that string.
 
@@ -30,22 +30,35 @@ This approach is much more structured and, at times, it can even feel boring. Ho
 
 ## Design a Single-Method Program
 
-## Exercises
+### Exercises
 
-### Exercise One
+#### Exercise One
 
 - [Design](./phase02-design-method-exercise1.md)
 - [Test](./spec/reading_time_spec.rb)
 - [Code](./lib/reading_time.rb)
 
-### Exercise Two
+#### Exercise Two
 
 - [Design](./phase02-design-method-exercise2.md)
 - [Test](./spec/is_text_correct_spec.rb)
 - [Code](./lib/is_text_correct.rb)
 
-### Challenge
+#### Challenge
 
 - [Design](./phase02-design-method-challenge.md)
 - [Test](./spec/check_todos_spec.rb)
 - [Code](./lib/check_todos.rb)
+
+## Test Drive a Single-Class Program
+
+### Exercise
+
+- [Test](./spec/diary_entry_spec.rb)
+- [Code](./lib/diary_entry.rb)
+
+### Challenge
+
+- [Test](./spec/grammar_stats_spec.rb)
+- [Code](./lib/grammar_stats.rb)
+
