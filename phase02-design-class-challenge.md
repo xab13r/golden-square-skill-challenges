@@ -14,19 +14,19 @@ Implement a class that will allow the user to:
 
 ```
 class MusicList
-	
+
 	def initialize()
 	# it only needs an array to store song titles
 	end
-	
+
 	def add(song) # song is a string
 		# Return error if song is an empty string
 	end
-	
+
 	def show
 		# Returns a list of songs
 	end
-	
+
 end
 ```
 
@@ -58,5 +58,4 @@ music_list.add(1234) => throws an error
 #5 - doesn't accept a string of whitespaces (regex: /^\s.*$/)
 music_list = MusicList.new
 music_list.add("       ") => "Song title cannot be blank"
-
 ```
